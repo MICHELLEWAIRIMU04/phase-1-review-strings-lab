@@ -1,9 +1,10 @@
 
 const currentUser = "Grace Hopper"
-const welcomeMessage = "Welcome to Flatbook!"
-console.log(`${welcomeMessage} ${currentUser}`) 
+console.log(`${currentUser}`)
+const welcomeMessage = "Welcome to Flatbook, "
+console.log(`${welcomeMessage} ${currentUser}!`) 
 
-const excitedWelcomeMessage = "WELCOME TO FLATBOOK!"
+const excitedWelcomeMessage = "WELCOME TO FLATBOOK, "
 const upperCaseCurrentUser = currentUser.toUpperCase(); 
 console.log(`${excitedWelcomeMessage} ${upperCaseCurrentUser}!`)
 

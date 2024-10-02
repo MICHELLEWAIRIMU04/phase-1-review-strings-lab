@@ -1,15 +1,13 @@
 
 const currentUser = "Grace Hopper"
 console.log(`${currentUser}`)
-const welcomeMessage = "Welcome to Flatbook, "
-console.log(`${welcomeMessage} ${currentUser}!`) 
+const welcomeMessage = `Welcome to Flatbook, ${currentUser}`
+console.log(`${welcomeMessage}!`) 
 
-const excitedWelcomeMessage = "WELCOME TO FLATBOOK, "
-const upperCaseCurrentUser = currentUser.toUpperCase(); 
-console.log(`${excitedWelcomeMessage} ${upperCaseCurrentUser}!`)
+const excitedWelcomeMessage = `WELCOME TO FLATBOOK, ${currentUser.toUpperCase()} `
+console.log(`${excitedWelcomeMessage}!`)
 
-const shortGreeting = "Welcome!"
-const firstInitial = currentUser[0];
-const restOfName = currentUser.slice(1);
-console.log(`${shortGreeting} ${firstInitial}!`)
+const shortGreeting = `Welcome! ${currentUser[0]}`
+
+console.log(`${shortGreeting}!`)
 
